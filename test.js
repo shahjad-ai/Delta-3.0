@@ -150,28 +150,28 @@
 // console.log(min);
 // arr.push(-5);
 // console.log(Math.min(...arr));
-let btn =document.querySelector("button");
-let inp =document.querySelector("input");
-let list =document.querySelector("list");
+// some program
+// let btn =document.querySelector("button");
+// let inp =document.querySelector("input");
+// let list =document.querySelector("list");
 
-btn.addEventListener("click",() => {
-    let item=document.createElement("li");
-    let btn=document.createElement("button");
-    btn.innerText="Delete"; 
-    console.log(inp.value);
-    item.innerText=inp.value;
-    ul.appendChild(item);
-    item.appendChild(btn);
-    inp.value="";
-})
-let ul=document.querySelector("ul");
-ul.addEventListener("click",
-    (event) => {
-        let item=event.target.parentElement;
-        item.remove();
-        // console.log(item);
-        console.log("delete");
-    }
-);
+// btn.addEventListener("click",() => {
+//     let item=document.createElement("li");
+//     let btn=document.createElement("button");
+//     btn.innerText="Delete"; 
+//     console.log(inp.value);
+//     item.innerText=inp.value;
+//     ul.appendChild(item);
+//     item.appendChild(btn);
+//     inp.value="";
+// })
+// let ul=document.querySelector("ul");
+// ul.addEventListener("click",
+//     (event) => {
+//         let item=event.target.parentElement;
+//         item.remove();
+//         // console.log(item);
+//         console.log("delete");
+//     }
+// );
 
-//add new Feature
